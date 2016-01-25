@@ -1,6 +1,7 @@
-node_modules/
-.idea/
 .gitignore
+node_modules/
+.idea/**/*.*
+!.idea/runConfigurations/*.*
 static/
 .DS_Store
 *.log

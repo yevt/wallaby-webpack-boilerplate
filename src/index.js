@@ -1,3 +1,3 @@
-console.log('javascript loaded fdls;dlfms;dlfm ');
+console.log('javascript loaded');
 
 module.exports = true;
