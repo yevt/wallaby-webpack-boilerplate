@@ -3,7 +3,9 @@
  */
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
-    entry: "./src/index",
+    entry: [
+        "./src/index"
+    ],
     output: {
         path: "./static",
         filename: "bundle.js"

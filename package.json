@@ -9,17 +9,18 @@
   "scripts": {
     "test": "echo \"Use wallaby js for testing\" && exit 1",
     "build": "./node_modules/.bin/webpack",
-    "watch": "webpack --watch"
+    "watch": "./node_modules/.bin/webpack --watch",
+    "dev": "./node_modules/.bin/webpack-dev-server"
   },
   "author": "yevt",
   "license": "ISC",
   "devDependencies": {
-    "babel-loader": "^6.2.1",
     "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "chai": "^3.4.1",
+    "html-webpack-plugin": "^2.7.2",
     "wallaby-webpack": "0.0.11",
-    "webpack": "^1.12.9",
-    "html-webpack-plugin": "^2.7.2"
+    "webpack": "^1.12.9"
   }
 }
