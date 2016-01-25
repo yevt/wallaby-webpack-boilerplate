@@ -3,6 +3,7 @@
 var babel = require('babel-core');
 var wallabyWebpack = require('wallaby-webpack');
 var webpackConfig = require('./webpack.config');
+delete(webpackConfig.devtool);
 var webpackPostprocessor = wallabyWebpack(webpackConfig);
 
 module.exports = function (wallaby) {
@@ -16,9 +17,9 @@ module.exports = function (wallaby) {
             { pattern: 'test/*Spec.js', load: false }
         ],
 
-        compilers: {
-            '**/*.js': wallaby.compilers.babel({ babel: babel })
-        },
+        //compilers: {
+        //    '**/*.js': wallaby.compilers.babel({ babel: babel })
+        //},
 
         postprocessor: webpackPostprocessor,
 

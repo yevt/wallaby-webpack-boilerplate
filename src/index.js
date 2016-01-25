@@ -1,3 +1,3 @@
-console.log('fdsf javascript loaded');
+console.log('javascript loaded');
 
 module.exports = true;
