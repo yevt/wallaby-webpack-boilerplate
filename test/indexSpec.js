@@ -2,7 +2,7 @@
  * Created by y.evtushenko on 28.12.15.
  */
 var app = require('../src/index');
-import chai from 'chai';
+var chai = require('chai');
 var expect = chai.expect;
 
 describe('Index', () => {

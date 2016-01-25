@@ -17,7 +17,7 @@ module.exports = function (wallaby) {
         ],
 
         compilers: {
-            '**/*.js': wallaby.compilers.babel({ babel: babel, presets: ['es2015'] })
+            '**/*.js': wallaby.compilers.babel({ babel: babel })
         },
 
         postprocessor: webpackPostprocessor,
