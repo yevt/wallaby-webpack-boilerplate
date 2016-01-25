@@ -1,6 +1,6 @@
 {
   "name": "webpack-wallaby-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "directories": {
     "lib": "src",
@@ -12,7 +12,7 @@
   "author": "yevt",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^6.3.26",
+    "babel-loader": "^6.2.1",
     "babel-core": "^6.3.26",
     "babel-preset-es2015": "^6.3.13",
     "chai": "^3.4.1",
